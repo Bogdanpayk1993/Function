@@ -9,11 +9,11 @@ function number_week(counter) {
 }
 
 function addition(a = []) {
-    return a[0] + a[1] + a[2] + a[3]
+    return a[0] + a[1] + a[2] + a[3]   //IT IS BETTER TO USE LOOPS
 }
 
 function multiplication(a = []) {
-    return a[0] * a[1] * a[2] * a[3]
+    return a[0] * a[1] * a[2] * a[3]   //The same
 }
 
 function arithmetic_mean(a = []) {
@@ -21,7 +21,7 @@ function arithmetic_mean(a = []) {
 }
 
 function minimal(a = []) {
-    var min = 0
+    var min = 0      // <-- Here it was better to use negative infinity
     for (var i = 0; i < 4; i++) {
         if (a[min] > a[i]) {
             min = i
@@ -30,7 +30,7 @@ function minimal(a = []) {
     return a[min]
 }
 
-function paired_elemants(a = []) {
+function paired_elemants(a = []) {  
     var paired = 0
     for (var i = 0; i < a.length; i++) {
         if (a[i] % 2 == 0) {
