@@ -1,4 +1,4 @@
-function perimeter_and_area(Array) {
+function perimeter_and_area(Array) {   //Don't use as a variable type names!!
     var si=[]
     si[0] = Math.sqrt(Math.pow((Array[0][0] - Array[1][0]),2) + Math.pow((Array[0][1] - Array[1][1]),2))
     si[1] = Math.sqrt(Math.pow((Array[1][0] - Array[2][0]),2) + Math.pow((Array[1][1] - Array[2][1]),2))
